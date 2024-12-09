@@ -9,7 +9,6 @@ import Image from 'next/image'
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -52,11 +51,11 @@ const Skill = () => {
 
     return (
         <div className=' pt-6 pl-8 pr-6'>
-            <p>Skill Test</p>
+            <p className=' mb-4 font-semibold'>Skill Test</p>
             <div className=' flex gap-4 flex-col sm:flex-row'>
                 <div className=' flex flex-col gap-4 max-w-[600px]'>
                     <div>
-                        <div className=' border flex p-6 items-center gap-4'>
+                        <div className=' border flex p-6 items-center gap-4 rounded-md'>
                             <div className='relative h-11 w-11'><Image className=' absolute' src={'/html-logo.png'} alt="html-logo" fill /></div>
                             <div>
                                 <p className='font-bold'>Hyper Text Markup Language</p>

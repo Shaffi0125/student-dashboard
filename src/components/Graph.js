@@ -4,7 +4,7 @@ import { Chart } from './Chart'
 
 const Graph = ({percentile}) => {
   return (
-    <div className=' border p-7'>
+    <div className=' border p-7 rounded-md'>
      <p className=' font-bold mb-4'>Comparison Graph</p>
      <div className=' flex items-center gap-4'>
      <p className=' mb-4'> <b>You scored {percentile}% percentile</b> which is lower than the average percentile 72% percentile of all the engineers who took this assessment.</p>

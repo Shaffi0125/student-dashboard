@@ -4,7 +4,7 @@ import { Progress } from "@/components/ui/progress"
 
 const Syllabus = () => {
     return (
-        <div className=' border p-6'>
+        <div className=' border p-6 rounded-md'>
             <p className=' font-bold mb-6'>Syllabus Wise Analysis</p>
             <p className=' mb-2'>HTML Tools, Forms, History</p>
             <div className=' flex gap-2 items-center'>

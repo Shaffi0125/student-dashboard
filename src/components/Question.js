@@ -3,7 +3,7 @@ import ChartPie from './ChartPie'
 
 const Question = (props) => {
   return (
-    <div className='border p-6'>
+    <div className='border p-6 rounded-md'>
       <div className=' flex justify-between'>
       <p className=' font-bold mb-4'>Question Analysis</p>
       <p className=' font-bold text-blue-500'>{props.score}/15</p>
